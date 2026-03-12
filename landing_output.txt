@@ -1,0 +1,28 @@
+## UI Pro Max Search Results
+**Domain:** landing | **Query:** interactive map cards slideshow hero
+**Source:** landing.csv | **Found:** 3 results
+
+### Result 1
+- **Pattern Name:** Immersive/Interactive Experience
+- **Keywords:** immersive, interactive, experience, 3d, animation
+- **Section Order:** 1. Full-screen interactive element, 2. Guided product tour, 3. Key benefits revealed, 4. CTA after completion
+- **Primary CTA Placement:** After interaction complete + Skip option for impatient users
+- **Color Strategy:** Immersive experience colors. Dark background for focus. Highlight interactive elements.
+- **Conversion Optimization:** 40% higher engagement. Performance trade-off. Provide skip option. Mobile fallback essential.
+
+### Result 2
+- **Pattern Name:** Marketplace / Directory
+- **Keywords:** marketplace, directory, search, listing
+- **Section Order:** 1. Hero (Search focused), 2. Categories, 3. Featured Listings, 4. Trust/Safety, 5. CTA (Become a host/seller)
+- **Primary CTA Placement:** Hero Search Bar + Navbar 'List your item'
+- **Color Strategy:** Search: High contrast. Categories: Visual icons. Trust: Blue/Green.
+- **Conversion Optimization:**  map hover pins,  card carousel, Search bar is the CTA. Reduce friction to search. Popular searches suggestions.
+
+### Result 3
+- **Pattern Name:** Product Demo + Features
+- **Keywords:** demo, product-demo, features, showcase, interactive
+- **Section Order:** 1. Hero, 2. Product video/mockup (center), 3. Feature breakdown per section, 4. Comparison (optional), 5. CTA
+- **Primary CTA Placement:** Video center + CTA right/bottom
+- **Color Strategy:** Video surround: Brand color overlay. Features: Icon color #0080FF. Text: Dark #222
+- **Conversion Optimization:** Embedded product demo increases engagement. Use interactive mockup if possible. Auto-play video muted.
+
