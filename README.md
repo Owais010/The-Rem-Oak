@@ -245,23 +245,6 @@ erDiagram
         string avatar_url
         string created_at
     }
-    REVIEWS {
-        uuid id PK
-        text location_id FK
-        uuid user_id FK
-        text user_name
-        int2 rating
-        text comment
-        text[] images
-        timestamptz created_at
-    }
-
-    USER_PROFILES {
-        uuid id PK_FK
-        text display_name
-        text avatar_url
-        timestamptz created_at
-    }
 ```
 
 **Security**: All tables have [Row Level Security (RLS)](https://supabase.com/docs/guides/auth/row-level-security) enabled — locations are publicly readable; reviews can be created/edited/deleted only by their author; profiles are publicly readable but only self-editable.
