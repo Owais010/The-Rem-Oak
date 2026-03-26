@@ -208,26 +208,43 @@ The app uses **Supabase** (PostgreSQL) with three core tables:
 
 ```mermaid
 erDiagram
-    LOCATIONS ||--o{ REVIEWS : "has many"
-    AUTH_USERS ||--o{ REVIEWS : "writes"
-    AUTH_USERS ||--|| USER_PROFILES : "has one"
+    LOCATIONS ||--o{ REVIEWS : has_many
+    AUTH_USERS ||--o{ REVIEWS : writes
+    AUTH_USERS ||--|| USER_PROFILES : has_one
 
     LOCATIONS {
-        text id PK
-        text name
-        text slug UK
-        text category
-        text[] genre
-        text[] group_type
-        float8 latitude
-        float8 longitude
-        text district
-        text image_url
-        float4 rating
-        int4 review_count
+        string id PK
+        string name
+        string slug
+        string category
+        string genre
+        string group_type
+        float latitude
+        float longitude
+        string district
+        string image_url
+        float rating
+        int review_count
         boolean is_featured
     }
 
+    REVIEWS {
+        string id PK
+        string location_id FK
+        string user_id FK
+        string user_name
+        int rating
+        string comment
+        string images
+        string created_at
+    }
+
+    USER_PROFILES {
+        string id PK
+        string display_name
+        string avatar_url
+        string created_at
+    }
     REVIEWS {
         uuid id PK
         text location_id FK
