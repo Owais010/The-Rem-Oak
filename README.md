@@ -35,7 +35,7 @@
 
 | Home Page | Location Detail | Explore |
 |:-:|:-:|:-:|
-| *Hero slideshow & category filters* | *Interactive map, reviews & gallery* | *Search, filter & discover* |
+| ![](./home.png) | ![](./location.png) | ![](./Explore.png) |
 
 ---
 
